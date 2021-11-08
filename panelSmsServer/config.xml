@@ -1,0 +1,17 @@
+<mConfig>
+  <hosts>
+   <hosts>
+      <name>BannyMan 192.168.201.1</name>
+      <value>192.168.201.1</value>
+      <localhost>0</localhost>
+    </hosts> 
+	<hosts>
+      <name>Ubuntu 192.168.10.132</name>
+      <value>192.168.10.132</value>
+      <localhost>1</localhost>
+    </hosts>
+  </hosts>
+  <defaultPhone>+XXXXXXX</defaultPhone>
+  <defaultText>Вкусняшка.</defaultText>
+  <localhostName>Banny</localhostName>
+</mConfig>

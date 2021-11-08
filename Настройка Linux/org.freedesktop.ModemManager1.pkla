@@ -1,0 +1,4 @@
+[All modemmanager]
+Identity=unix-group:sudo
+Action=org.freedesktop.ModemManager1.*
+ResultActive=yes

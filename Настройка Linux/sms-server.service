@@ -1,0 +1,15 @@
+[Unit]
+Description=SMS server
+
+[Service]
+User=root
+WorkingDirectory=/opt/sms_server
+ExecStart=/opt/sms_server/run_linux.sh
+
+SuccessExitStatus=143
+TimeoutStopSec=10
+Restart=on-failure
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target

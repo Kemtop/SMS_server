@@ -1,0 +1,1 @@
+e:\Java\jdk-13.0.1\bin\java  -jar server.jar

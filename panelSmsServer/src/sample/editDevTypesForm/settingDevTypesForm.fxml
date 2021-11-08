@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox prefHeight="241.0" prefWidth="397.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.editDevTypesForm.settingDevTypesFormController">
+  <children>
+    <AnchorPane maxHeight="-1.0" maxWidth="705.0" prefHeight="432.0" prefWidth="459.0" VBox.vgrow="ALWAYS">
+      <children>
+            <Button id="buttonOk" fx:id="buttonOk" layoutX="76.0" layoutY="181.0" mnemonicParsing="false" onAction="#buttonOkClick" prefHeight="25.0" prefWidth="94.0" text="OK">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Button>
+            <Button id="buttonCancel" fx:id="buttonCancel" layoutX="259.0" layoutY="181.0" mnemonicParsing="false" onAction="#buttonCancelClick" prefWidth="94.0" text="Отмена">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Button>
+            <Label layoutX="72.0" layoutY="24.0" text="Код:">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <Label id="labelDevInfo" fx:id="labelDevInfo" layoutX="111.0" layoutY="25.0" text="Label">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+
+            <Label layoutX="26.0" layoutY="70.0" text="Приоритет:">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <TextField id="textBoxChannel" fx:id="textBoxChannel" layoutX="111.0" layoutY="68.0" prefHeight="25.0" prefWidth="50.0" />
+      </children>
+    </AnchorPane>
+  </children>
+</VBox>

@@ -1,0 +1,4 @@
+Manifest-Version: 1.0
+Class-Path: .\libs\netty\netty-all-4.1.56.Final.jar .\libs\jackson\jackson-annotations-2.9.0.jar  .\libs\jackson\jackson-module-jaxb-annotations-2.9.2.jar .\libs\jackson\woodstox-core-5.0.3.jar .\libs\jackson\stax2-api-3.1.4.jar  .\libs\jackson\jackson-core-2.9.2.jar .\libs\jackson\jackson-databind-2.9.2.jar .\libs\jackson\jackson-dataformat-xml-2.9.2.jar    .\libs\jackson\jackson-core-asl-1.9.13.jar .\libs\jackson\jackson-mapper-asl-1.9.13.jar .\libs\jackson\jackson-mrbean-1.9.13.jar
+Main-Class: sample.Main
+

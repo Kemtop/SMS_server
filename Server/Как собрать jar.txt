@@ -1,0 +1,5 @@
+В Maven выбираем LifeCycle
+выбираем package запускаем maven.
+В target получаем пакет.
+
+Запуск под линукс bash run_linux.sh
